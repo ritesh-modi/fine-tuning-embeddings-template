@@ -1,0 +1,55 @@
+# dataset_config.yaml
+dataset_configs:
+  positive_pair:
+    prompt: >
+      Based on the following text, generate one Question and its corresponding Answer.
+      Please format the output as follows:
+      Question: [Your question]
+      Answer: [Your answer]
+
+      Text: {text_chunk}
+    columns:
+      question: anchor
+      answer: positive
+    file_name: positive_pairs.csv
+    split_keys:
+      - "Question:"
+      - "Answer:"
+    
+  triplets:
+    prompt: >
+      Based on the following text, generate three related sentences: an anchor sentence, a positive sentence that is similar to the anchor, and a negative sentence that is different from the anchor.
+      Please format the output as follows:
+      Anchor: [Anchor sentence]
+      Positive: [Similar sentence]
+      Negative: [Different sentence]
+
+      Text: {text_chunk}
+    columns:
+      anchor: anchor
+      positive: positive
+      negative: negative
+    file_name: triplets.csv
+    split_keys:
+      - "Anchor:"
+      - "Positive:"
+      - "Negative:"
+
+  pair_with_score:
+    prompt: >
+      Based on the following text, generate two related sentences and assign a similarity score between 0 (completely unrelated) and 1 (identical in meaning).
+      Please format the output as follows and ensure each one is in a separate line:
+      Sentence1: [First sentence]
+      Sentence2: [Second sentence]
+      score: [Similarity score between 0 and 1]
+
+      Text: {text_chunk}
+    columns:
+      sentence1: sentence1
+      sentence2: sentence2
+      score: score
+    file_name: pairs_with_scores.csv
+    split_keys:
+      - "Sentence1:"
+      - "Sentence2:"
+      - "score:"

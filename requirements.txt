@@ -1,0 +1,10 @@
+torch
+sentence-transformers
+datasets
+pyyaml
+nltk
+openai
+python-dotenv
+PyPDF2
+unstructured[all-docs]
+transformers[torch]

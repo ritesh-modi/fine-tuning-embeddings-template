@@ -1,0 +1,22 @@
+data:
+  input_folder: "data"
+  dataset_format: "pair_with_score"  # Options: positive_pair, triplets, pair_with_score, texts_with_classes
+  chunk_size: 500
+  overlap: 100
+
+model:
+  base_model: "BAAI/bge-base-en-v1.5"
+  output_dir: "output/finetuned_model"
+
+training:
+  loss_function: "cosine_similarity"  # Options: matryoshka, triplet, contrastive, cosine_similarity
+  matryoshka_dimensions: [768, 512, 256, 128, 64]
+  num_epochs: 3.0
+  batch_size: 4
+  learning_rate: 2e-5
+  warmup_ratio: 0.1
+  gradient_accumulation_steps: 16
+
+evaluation:
+  strategy: "epoch"
+  metric: "ndcg@10"

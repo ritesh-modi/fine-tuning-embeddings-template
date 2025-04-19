@@ -1,0 +1,23 @@
+sentence1,sentence2,score
+"the lease agreement was made and executed on october 31, 2022.","this agreement of lease is dated the 31st of october, 2022.",0.95
+"the lease agreement was signed on october 31, 2022, between the lessor and the lessee for a 3-bedroom apartment.","on the 31st of october, 2022, a leasing contract for a three-bedroom flat was executed between the lessor and lessee.",0.95
+"the lessee has agreed to rent the scheduled flat for a monthly fee of rs.43,000.","the lessor has agreed to lease out the flat for rs.43,000 per month.",0.95
+"the lessee is required to pay a monthly rent of rs.43,000, excluding maintenance and electricity charges.","a monthly payment of rs.43,000 must be made by the lessee, not including charges for maintenance and electricity.",0.95
+the lessee must pay the lease in advance by the 5th of each month.,lease payments are required to be made in advance every month by the 5th.,0.95
+the lessee is responsible for paying electricity and maintenance charges directly to the flat owners association.,payment of electricity consumption and maintenance fees by the lessee should be made directly to the society formed by the flat owners.,0.95
+the lessee must pay 10% more rent every eleven months if they choose to extend the lease after it expires.,"if the lessee decides to continue renting after the lease period ends, there will be a 10% rent increase every eleven months.",0.95
+"the lessee is responsible for maintaining the interior of the premises, including walls, floors, and woodwork.","it is the lessee's duty to keep the interior, including doors, windows, and toilets, in good and clean condition.",0.85
+the lessee is required to perform deep cleaning and painting when vacating the flat.,"upon vacating, the lessee must ensure the flat is deeply cleaned and painted.",0.95
+the lessee is allowed to use the premises for family residence during the lease term.,"during the lease, the lessee can use the property for living with their family.",0.95
+the lessee is not allowed to modify the rented property without prior written approval from the lessor.,alterations to the leased premises require the lessor's written consent before proceeding.,0.9
+the lessee is restricted to using the premises solely for residential purposes and not for commercial activities.,the premises are to be used only for living purposes and not for any business-related activities.,0.9
+the lessee must not sub-lease the scheduled flat according to the agreement.,sub-leasing the demised premises is prohibited for the lessee under the lease agreement.,0.9
+the lessee must inform the lessor at least one month before vacating the premises.,the lessor requires a one-month notice from the lessee before the lease termination.,0.8
+the lessee must allow the lessor and the flat owners association to access the premises for inspections after providing written notice.,"the lessor and the flat owners association can enter the leased property to check its condition or the plumbing, provided they inform the lessee in writing beforehand.",0.9
+the lessee is responsible for maintaining and repairing the electrical and sanitary fittings and fixtures as needed.,it is the duty of the lessee to ensure that the electrical and sanitary systems are kept in good working condition.,0.9
+"the lessee is responsible for returning the leased property to the lessor in the same condition it was received, including all fixtures and fittings, at the end of the lease period.","at the expiration of the lease term, the lessee must ensure that the property, along with any fixtures and fittings, is returned to the lessor in the condition it was originally provided.",0.95
+"if the lessee wants to extend the lease, they must notify the lessor in writing about their intention to continue for another eleven months.",the lessee is required to provide written notice to the lessor if they wish to renew the lease for an additional eleven months.,0.95
+the lessee is required to leave the premises once the lease period ends.,the lessee must vacate the demised premises after the lease agreement expires.,0.95
+the demised premises include 6 ceiling fans and 4 tube lights among other fixtures.,among the fixtures provided in the demised premises are 6 ceiling fans and 4 tube lights.,0.95
+the residential flat no. 1405 is located on the 14th floor and includes two car parking lots.,"flat number 1405, situated on the fourteenth floor, comes with a pair of parking spaces.",0.95
+the document was signed and delivered by the lessor in the presence of witnesses.,the lessee signed and delivered the document in front of the witnesses listed.,0.85
